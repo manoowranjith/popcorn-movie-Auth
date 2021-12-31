@@ -1,0 +1,47 @@
+.login{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+form{
+    width: 30vw;
+    border:1px solid black;
+    background-color: white;
+    padding:10vh 5vw;
+}
+.credential{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+button{
+    padding:10px 20px;
+    border:none;
+    float: right;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+input{
+    padding-left: 20px;
+    /* margin-left: 50px; */
+    height: 20px;
+    width: 250px;
+    font-weight: 700;
+    font-size:18px;
+}
+.errmsg{
+    font-size: 12px;
+    padding-bottom: 1px;
+    color: red;
+    /* width: 100%;
+    height: 12px; */
+}

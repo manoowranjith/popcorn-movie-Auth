@@ -1,0 +1,21 @@
+<body class="login-page">
+    <div class="login">
+        <form [formGroup]="submitForm" action="">
+            <div class="credential">
+                <label for="">EMAIL</label>
+                <div class="inpEmail">
+                    <div class="errmsg">{{emailERR}}</div>
+                    <input  id="username" formControlName="email" type="email">
+                </div>
+                <label id="password" for="">PASSWORD</label>
+                <div class="inppass">
+                    <div  class="errmsg">{{passwordERR}}</div>
+                    <input formControlName="password" type="password">
+                </div>
+            </div>
+            <br> <br>
+            <button (click)="Authentication('Login')" type="submit">Login</button>
+            <button (click)="Authentication('Signup')" type="submit">Signup</button>
+        </form>
+    </div>
+</body>
